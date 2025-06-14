@@ -1,0 +1,11 @@
+development:
+  dialect: postgresql
+  datasource: host=localhost port=5432 dbname=calendarium user=postgres password=123456
+  dir: migrations
+  table: gorp_migrations
+
+test:
+  dialect: postgresql
+  datasource: host=localhost port=5432 dbname=calendarium user=postgres password=123456
+  dir: migrations
+  table: gorp_migrations
