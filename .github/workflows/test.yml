@@ -3,13 +3,9 @@ name: Test
 on:
   push:
     branches:
-      - master
+      - main
       - develop
   pull_request:
-
-env:
-  CI_TOKEN: ${{ secrets.CI_TOKEN }}
-  CI_USER: ${{ secrets.CI_USER }}
 
 permissions:
   actions: read
