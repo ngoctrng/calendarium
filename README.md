@@ -1,3 +1,5 @@
+![coverage](docs/coverage.svg) ![coverage](docs/time.svg)
+
 # Calendarium
 
 Calendarium is a backend system designed to manage meeting room reservations within an organization. It enables users to register, add and view meeting rooms, check room availability, and make or cancel bookings. The system ensures conflict-free scheduling, handles concurrent access safely, and supports bookings that span across multiple days.

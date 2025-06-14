@@ -1,6 +1,6 @@
 coverage:
   if: true
-  acceptable: 20%
+  acceptable: 30%
   badge:
     path: docs/coverage.svg
 push:
@@ -12,6 +12,8 @@ codeToTestRatio:
     - "**/*_test.go"
 testExecutionTime:
   if: true
+  badge:
+    path: docs/time.svg
 diff:
   datastores:
     - artifact://${GITHUB_REPOSITORY}
