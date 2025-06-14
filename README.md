@@ -28,7 +28,9 @@ Calendarium is a backend system designed to manage meeting room reservations wit
 
 ## Architecture
 
-This project follows the Clean Architecture pattern (also known as Onion Architecture). See the architecture diagram in [docs/architecture.png](docs/architecture.png).
+This project follows the Onion/Clean Architecture pattern.
+
+![](docs/architecture.png).
 
 Key principles:
 - Dependencies flow inward
